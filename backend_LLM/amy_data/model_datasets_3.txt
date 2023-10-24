@@ -1,0 +1,601 @@
+INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Fire-Boltt Dagger 1.43" AMOLED Display Smartwatch, 96% Screen to Body Ratio with Single BT Bluetooth Calling, IP68, Dual B... and has 4.4 ratings and costs ₹18,999 rupees
+            PRODUCT_ID: 1434
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: MECHIP Bluetooth Smart Fitness Band for Unisex D18 Activity Tracker Sport Watch for Connect All Smart Phones (Free Size) (... and has 3.7 ratings and costs ₹1,499 rupees
+            PRODUCT_ID: 8257
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Tarkan Portable Folding Laptop Desk for Bed, Lapdesk with Handle, Drawer, Cup & Mobile/Tablet Holder for Study, Eating, Wo... and has 4.3 ratings and costs ₹2,499 rupees
+            PRODUCT_ID: 5684
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Upix® AC Remote No. 29C, Compatible for Panasonic AC Remote Control (Exactly Same Remote Will Only Work) and has 4.2 ratings and costs ₹899 rupees
+            PRODUCT_ID: 7314
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: SanDisk Cruzer Force USB Flash Drive, CZ71 16GB, USB2.0, Durable Metal Casing and has 4.3 ratings and costs ₹500 rupees
+            PRODUCT_ID: 4860
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Kammateswara LCD Writing Tablet in Kids Slate with 8.5 Inch Screen LCD Writing pad, Writing Tablet Toys for Kids(Multicolor) and has 3.8 ratings and costs ₹490 rupees
+            PRODUCT_ID: 7336
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Fire-Boltt Gladiator 1.96" Biggest Display Smart Watch with Bluetooth Calling, Voice Assistant &123 Sports Modes, 8 Unique... and has 4.0 ratings and costs ₹9,999 rupees
+            PRODUCT_ID: 888
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Ailun Camera Lens Protector for iPhone 13 Pro 6.1" ＆ iPhone 13 Pro Max 6.7",Tempered Glass,9H Hardness,Ultra HD,Anti-Scrat... and has 3.8 ratings and costs ₹299 rupees
+            PRODUCT_ID: 5781
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: HP Ink Tank 416 All-in-one WiFi Colour Printer with Upto 7500 Black and 8000 Colour Pages Included in The Box. - Print, Sc... and has 4.1 ratings and costs ₹15,708 rupees
+            PRODUCT_ID: 9372
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Cello ColourUP Celebration Kit Mega Gift Pack | Kids Colouring Set | 1 Gel Pen | 12 Crayons | 15 Oil Pastels Colouring Set... and has 4.4 ratings and costs ₹199 rupees
+            PRODUCT_ID: 1298
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: iPhone Original 20W PD Adapter Compatible for i-Phone 14/14 Plus/ 14 Pro/ 14 Pro Max, i-Phone 13/13 Pro/13 Pro Max/13 Min... and has 5.0 ratings and costs ₹1,499 rupees
+            PRODUCT_ID: 4659
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TheGiftKart Flip Back Cover Case for Samsung Galaxy S20 FE / S20 FE 5G | Dual-Color Leather Finish | Inbuilt Stand & Pocke... and has 4.3 ratings and costs ₹999 rupees
+            PRODUCT_ID: 9153
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TheGiftKart Flip Back Cover Case for Redmi 11 Prime 5G | Dual-Color Leather Finish | Inbuilt Stand & Pockets | Wallet Styl... and has 4.4 ratings and costs ₹999 rupees
+            PRODUCT_ID: 7641
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: ONUMTZ Newly Launched Smart Watch Charging Cable, Watch Holder Magnetic 24k Gold Plated 2 pin Cable, Compatible with T55, ... and has 3.3 ratings and costs ₹999 rupees
+            PRODUCT_ID: 8415
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Zitel Case with Screen Protector Compatible with Apple Watch SE 2nd gen 2022 / Series 6/5/4 SE, 40mm Hard PC Cover with Bu... and has 3.8 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 6420
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Juârez Acoustic Guitar, 38 Inch Cutaway, 038C with Bag, Strings, Pick and Strap, Black and has 4.0 ratings and costs ₹6,990 rupees
+            PRODUCT_ID: 289
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: CEDO Xiaomi Redmi Pad (10.6 Inch) Flip Cover | Leather Finish | 360 Degree Rotate Flip Cover | Shockproof Style Back Cover... and has 4.8 ratings and costs ₹999 rupees
+            PRODUCT_ID: 4319
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Redmi Pad | MediaTek Helio G99 | 26.95cm (10.61 inch) 2K Resolution & 90Hz Refresh Rate Display | 4GB RAM & 128GB Storage,... and has 4.3 ratings and costs ₹28,999 rupees
+            PRODUCT_ID: 9038
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: EGOTUDE Ultra Hybrid Camera Lens Protection [Never Yellowing] Transparent Back Cover Case for iPhone 14 (Black) and has 3.9 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 3946
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Noise Buds VS104 Pro Truly Wireless Earbuds with 40H of Playtime, Quad Mic with ENC, Instacharge(10 min=150 min), 14.2mm D... and has 3.8 ratings and costs ₹4,999 rupees
+            PRODUCT_ID: 686
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Noise ColorFit Ultra SE Smart Watch with 1.75"(4.3cm) HD Display, Aluminium Alloy Body, 60 Sports Modes, Spo2, Lightweigh... and has 4.1 ratings and costs ₹6,499 rupees
+            PRODUCT_ID: 957
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Nokia T21 with 10.36" 2K Screen, with Flip Cover, Android 12 with 2 Years of OS Upgrades & 3 Years of Security Updates, 4G... and has 4.6 ratings and costs ₹20,999 rupees
+            PRODUCT_ID: 7068
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: SanDisk 1TB Portable SSD, 520MB/s R, USB 3.2 Gen 2, Rugged SSD with Upto 2 Meter Drop Protection, Type-C to Type-A Cable, ... and has 4.4 ratings and costs ₹20,500 rupees
+            PRODUCT_ID: 1411
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Consistent S6 SSD 512GB (CTSSD512S6) and has 4.2 ratings and costs ₹8,999 rupees
+            PRODUCT_ID: 6593
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Camel Camlin Kokuyo Canvas Board - 30cm x 40cm and has 4.4 ratings and costs ₹180 rupees
+            PRODUCT_ID: 5333
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Bennett Nylon Drax Laptop Bag Sleeve Case Cover Pouch for 14 inches Laptop Apple/Dell/Lenovo/ASUS/Hp/Samsung/Mi/MacBook/Ul... and has 4.1 ratings and costs ₹999 rupees
+            PRODUCT_ID: 3018
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Electvision Remote Compatible with Amazon fire Stick Remote only [3rd Generation ][ Fire TV Remote ] [ Fire Stick Remote ]... and has 3.1 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 2511
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Echo Dot (Black) Combo with Syska 12W Smart Color Bulb - Smart Home Starter Kit and has 4.4 ratings and costs ₹6,698 rupees
+            PRODUCT_ID: 2493
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TheGiftKart Tough Armor Samsung Galaxy M33 5G Bumper Back Case Cover | Ring Holder & Kickstand in-Built | 360 Degree Prote... and has 4.3 ratings and costs ₹999 rupees
+            PRODUCT_ID: 5199
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Quantum Wireless Mouse with Upto 12 Months Battery Life(Cell Included), Silent Keys, 800/1200/1600 DPI, USB Nano Receiver,... and has 4.2 ratings and costs ₹999 rupees
+            PRODUCT_ID: 1760
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: WeCool G2 Gimbal with LED Fill Light for Phones, Anti-Shake 1-Axis Gimbal Stabilizer with 360° Rotation with Bluetooth Rem... and has 3.7 ratings and costs ₹8,999 rupees
+            PRODUCT_ID: 3688
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: boAt A 350 Type C Cable for Smartphone, Charging Adapter (1.5m, Carbon Black) and has 4.3 ratings and costs ₹799 rupees
+            PRODUCT_ID: 1171
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Junkyard Vinyl Anime Stickers for Laptop Gadgets Kids (Pack of 100) and has 4.0 ratings and costs ₹499 rupees
+            PRODUCT_ID: 3725
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Saregama Carvaan Premium Hindi - Portable Music Player with 5000 Preloaded Songs, FM/BT/AUX  (Royal Blue) and has 4.4 ratings and costs ₹7,390 rupees
+            PRODUCT_ID: 6509
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TP-Link TL-WA855RE N300 Mbps Single Band Universal Wireless Range Extender, Broadband/WiFi Extender with 1 Ethernet Port a... and has 4.1 ratings and costs ₹3,599 rupees
+            PRODUCT_ID: 6041
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: UNIGEN 20W Dual Port USB & Type C PD Fast Charger Adapter | USB 18W QC 3.0 Block for iPhone 14/13/12/11Pro/Pro Max/Mini, S... and has 3.9 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 5726
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Samsung Galaxy F23 5G Charger PD [Compatible] with Samsung Galaxy F23 / Samsung Galaxy F23 5G Fast Charger Original Adapte... and has nan ratings and costs ₹499 rupees
+            PRODUCT_ID: 9542
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Parker Frontier Stainless Steel Roller Ball Pen (Ink - Blue) and has 4.3 ratings and costs ₹650 rupees
+            PRODUCT_ID: 4498
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TheGiftKart Back Case Cover for Samsung Galaxy S21 FE 5G Back Case Cover | Tough Armor Bumper | Ring Holder & Kickstand i... and has 4.3 ratings and costs ₹999 rupees
+            PRODUCT_ID: 4779
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Amazon Basics USB Adaptor with 1 Universal AC Socket and 2 USB Ports (Black) and has 3.9 ratings and costs ₹999 rupees
+            PRODUCT_ID: 5109
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Oraimo 25.5W 4 Ports USB Charger, 5.1A USB Wall Charger Phone Adapter Compatible for iPhone 13/13 Mini/13 Pro Max/12/12 Pr... and has 4.0 ratings and costs ₹999 rupees
+            PRODUCT_ID: 1425
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Camlin Strong Bond 200gm Glue (White) and has 4.3 ratings and costs ₹85 rupees
+            PRODUCT_ID: 7125
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: V-Guard VG 50 Voltage Stabilizer for Refrigerator (Grey) and has 4.1 ratings and costs ₹1,890 rupees
+            PRODUCT_ID: 3019
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Lunar's Unisex 50L Water Resistant Office/Travel/Business Laptop Backpack, Bag for up to 17.3 inch Laptop/MacBook with rai... and has 4.0 ratings and costs ₹2,999 rupees
+            PRODUCT_ID: 6983
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: boAt Rockerz 550 Bluetooth Wireless Over Ear Headphones with Upto 20 Hours Playback, 50MM Drivers, Soft Padded Ear Cushion... and has 4.2 ratings and costs ₹4,999 rupees
+            PRODUCT_ID: 429
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: VMPS 1 Year Warranty AC Remote Compatible for Lloyd Voltas Onida Godrej Videocon Gree Electrolux Ac Remote 1.5 Ton and has 4.5 ratings and costs ₹999 rupees
+            PRODUCT_ID: 3676
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Robustrion Pack of 2 [Anti-Scratch] & [Smudge Proof] [Bubble Free] Premium Tempered Glass Screen Protector Guard for Samsu... and has 4.0 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 8281
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Cosmic Byte Meteoroid Laptop Cooling Pad with 6 Fan Upto 17 inch laptops (Black/Blue) and has 3.8 ratings and costs ₹2,199 rupees
+            PRODUCT_ID: 7164
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: (Renewed) Boult Drift Bluetooth Calling, 1.69inch HD Display Smartwatch (Black Strap, Free Size) and has 3.4 ratings and costs ₹7,999 rupees
+            PRODUCT_ID: 5148
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Seagate Expansion 4TB External HDD - USB 3.0 for Windows and Mac with 3 yr Data Recovery Services, Portable Hard Drive (ST... and has 4.4 ratings and costs ₹10,999 rupees
+            PRODUCT_ID: 3124
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: ETUZI Silicone Remote Cover Compatible for Fire TV Stick (3rd Gen, 2021) with All-New Alexa Voice Remote Case (Remote Not ... and has 4.1 ratings and costs ₹999 rupees
+            PRODUCT_ID: 7577
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Furniture Cafe Set top Box Stand | WiFi Router Holder Wooden Wall Shelves | Setup Box Stand for Home | Wall Mount Stylish ... and has 4.1 ratings and costs ₹999 rupees
+            PRODUCT_ID: 1160
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Noise Buds VS104 Pro Truly Wireless Earbuds with 40H of Playtime, Quad Mic with ENC, Instacharge(10 min=150 min), 14.2mm D... and has 3.8 ratings and costs ₹4,999 rupees
+            PRODUCT_ID: 955
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: AEIDESS Tempered Glass Screen Protector Compatible For Google Pixel 6A with Edge to Edge Coverage and Easy Installation Kit and has 3.9 ratings and costs ₹999 rupees
+            PRODUCT_ID: 4608
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TANTRA Twist Universal Car Mobile Holder for Dashboard 360 with One Touch Technology - Expandable & Rotatable & Double Shi... and has 4.0 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 5639
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Spigen Ultra Hybrid Matte Back Cover Case for iPhone 13 (TPU + Poly Carbonate | Frost Black) and has 4.4 ratings and costs ₹2,799 rupees
+            PRODUCT_ID: 2652
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: HP Laserjet 136nw WiFi Printer, Print Copy Scan, Compact Design, Reliable and Fast Printing, Network Support and has 4.1 ratings and costs ₹18,755 rupees
+            PRODUCT_ID: 6321
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: OpenTech® Tempered Glass Screen Protector Compatible for OnePlus 6T / OnePlus 7 Edge to Edge Coverage with Easy Installati... and has 4.0 ratings and costs ₹999 rupees
+            PRODUCT_ID: 3225
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Redgear GC-100 Keyboard and Mouse Set with 3 Mixed LEDs, Windows Keylock, Floating Keycaps, RGB Mode, Upto 3200 dpi and Ga... and has 4.2 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 2816
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Noise Pulse Buzz 1.69" Bluetooth Calling Smart Watch with Call Function, 150 Watch Faces, 60 Sports Modes, Spo2 & Heart Ra... and has 3.9 ratings and costs ₹4,999 rupees
+            PRODUCT_ID: 2134
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Mercusys MW300RE Wireless Repeater WiFi Booster | MIMO Technology | Three External Antennas | 300Mbps Speed Wi-Fi Range Ex... and has 3.8 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 3517
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: SupCares Tempered Glass Screen Protector for Samsung Galaxy Watch 4 Classic (46 mm) with Easy Self Installation Kit | Pack... and has 4.7 ratings and costs ₹799 rupees
+            PRODUCT_ID: 1823
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Half Moon 30L Waterproof 15.6 inch Laptop Office School College Bag Backpack for Men Women Boys & Girls and has 3.6 ratings and costs ₹1,799 rupees
+            PRODUCT_ID: 8681
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Casotec Basic Case for Samsung Galaxy M13 4G (Thermoplastic Polyurethane_Clear) and has 3.4 ratings and costs ₹999 rupees
+            PRODUCT_ID: 9019
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Cello ColourUp Celebration Kit Gift Pack |12 Wax Crayons Colour Set | 12 Oil Pastels | 15 Mini Sketch Pens | Kids Drawing ... and has 4.4 ratings and costs ₹149 rupees
+            PRODUCT_ID: 1184
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Lenovo Tab M10 HD 2nd Gen (10.1 inch (25.65 cm), 3 GB, 32 GB, Wi-Fi) with Metallic Body and Octa Core Processor and has 4.1 ratings and costs ₹20,000 rupees
+            PRODUCT_ID: 5056
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Western Digital WD 2TB My Passport Portable Hard Disk Drive, USB 3.0 with  Automatic Backup, 256 Bit AES Hardware Encrypti... and has 4.4 ratings and costs ₹7,400 rupees
+            PRODUCT_ID: 5311
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: VMT Stock OnePlus 11 5G Back Cover | Transparent Crystal Clear Hard PC Back Case with TPU Bumper, Drop Protection Case Cov... and has 3.7 ratings and costs ₹999 rupees
+            PRODUCT_ID: 6757
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Samsung Galaxy Tab S6 Lite 26.31 cm (10.4 inch), S-Pen in Box, Slim and Light,Dolby Atmos Sound, 4GB RAM, 128GB Storage | ... and has 4.4 ratings and costs ₹33,999 rupees
+            PRODUCT_ID: 9377
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Spigen Ultra Hybrid Back Cover Case Compatible with iPhone 14 (TPU + Poly Carbonate | Crystal Clear) and has 4.4 ratings and costs ₹2,599 rupees
+            PRODUCT_ID: 2453
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Viltrox EF-EOS M Electronic AF Auto Focus Lens Mount Adapter for Canon EF/EF-S Lens to Canon EOS-M (EF-M Mount) Mirrorless... and has 4.5 ratings and costs ₹4,990 rupees
+            PRODUCT_ID: 6519
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Rapidotzz Band Straps - 3 Pcs (Unisex) | Removable Straps ONLY for Amazfit Huami Bip, Amazfit Bip Lite, Noise, Firebolt, b... and has 3.9 ratings and costs ₹1,499 rupees
+            PRODUCT_ID: 4517
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Affix Auto-Align Technology Tempered Glass Screen Guard for iPhone 12 and for iPhone 12 Pro (6.1 Inch) | Easy Installation... and has 4.4 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 7864
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: HP 14s, 5th Gen AMD Ryzen 3- 8GB RAM/512GB SSD 14 inches(35cm) Laptop, FHD IPS Micro-Edge Display/ Backlit Keyboard/Alexa/... and has 4.2 ratings and costs ₹50,597 rupees
+            PRODUCT_ID: 4954
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Ambrane Unbreakable 60W / 3A Fast Charging 1.5m Braided Type C Cable for Smartphones, Tablets, Laptops & other Type C devi... and has 4.0 ratings and costs ₹299 rupees
+            PRODUCT_ID: 137
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Oppo Enco Buds Bluetooth True Wireless in Ear Earbuds(TWS) with Mic, 24H Battery Life, Supports Dolby Atmos Noise Cancella... and has 4.1 ratings and costs ₹3,999 rupees
+            PRODUCT_ID: 663
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Parzo Ear Cushions for Bose QC35 - Ultra Soft Ear Pads Compatible with Bose Quietcomfort 35 & 35 ii Headphones (QC35 Cushi... and has 4.3 ratings and costs ₹1,300 rupees
+            PRODUCT_ID: 4644
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Western Digital WD Green SATA 480GB, Up to 545MB/s, 2.5 Inch/7 mm, 3Y Warranty, Internal Solid State Drive (SSD) (WDS480G3... and has 4.4 ratings and costs ₹7,200 rupees
+            PRODUCT_ID: 1463
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Beetel B17 Corded Landline Phone, Ringer Volume Control, LED for Ring Indication, Wall/Desk Mountable,Elegant Design,Clear... and has 3.9 ratings and costs ₹749 rupees
+            PRODUCT_ID: 3527
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Boult Audio Probass Curve Bluetooth Wireless in Ear Earphones with Mic with Ipx5 Water Resistant, 12H Battery Life & Extra... and has 3.8 ratings and costs ₹3,499 rupees
+            PRODUCT_ID: 868
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Amazon Brand - Solimo Back Cover Case for POCO M2 / Mi Redmi 9 Prime / POCO M2 Reloaded | Compatible for POCO M2 / Mi Redm... and has 4.2 ratings and costs ₹299 rupees
+            PRODUCT_ID: 8205
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Uniball Air Micro Pen -(Blue Ink,Pack of 5) and has 4.4 ratings and costs ₹450 rupees
+            PRODUCT_ID: 4438
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Akai Professional MPK mini MK3 25 Key USB MIDI Keyboard Controller with 8 Backlit Drum Pads, 8 Knobs and Music Production ... and has 4.3 ratings and costs ₹11,902 rupees
+            PRODUCT_ID: 7311
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: SanDisk® Ultra Curve USB 3.2 128GB 100MB/s R Green and has 4.2 ratings and costs ₹1,700 rupees
+            PRODUCT_ID: 7417
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Fitbit Inspire 2 Health & Fitness Tracker with a Free 1-Year Premium Trial, 24/7 Heart Rate, Black/Black, One Size (S & L ... and has 4.2 ratings and costs ₹7,999 rupees
+            PRODUCT_ID: 2944
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Sony WH-CH510 Wireless Bluetooth On Ear Headphone with Mic (Blue) and has 4.0 ratings and costs ₹4,990 rupees
+            PRODUCT_ID: 6858
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: QHOHQ Polycarbonate Tempered Glass, 2 Pack Hard PC Case for Smartwatches Compatible with Apple Watch Series 8 45mm & Serie... and has 4.0 ratings and costs ₹999 rupees
+            PRODUCT_ID: 1217
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TheGiftKart Tough Armor Bumper Back Cover Case for Mi Redmi Note 11 Pro/Pro Plus 5G | Ring Holder & Kickstand in-Built | 3... and has 4.3 ratings and costs ₹999 rupees
+            PRODUCT_ID: 7601
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TheGiftKart Best Camera Protection Back Cover Case for OnePlus 11R 5G | Ultra Clear Soft Case | Inbuilt Dust Plugs & Anti-... and has nan ratings and costs ₹999 rupees
+            PRODUCT_ID: 5979
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: 5V / 4A VOOC 20W Power Adapter Fast Charging Compatible with RealMe 5 Pro/ 7 Pro/ X2 Pro/ 6/7/ 8/ X3/ 7i/ X/XT & All Other... and has 3.6 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 7691
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TANZILIGHT® Fariy Lights Batteries 30 Pcs LR44/AG13, 1.5V Alkaline Button Coin Cell Electronics Solutions LR44 Battery (Pa... and has 3.7 ratings and costs ₹999 rupees
+            PRODUCT_ID: 6853
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: SanDisk Extreme SD UHS I 32GB Card for 4K Video for DSLR and Mirrorless Cameras 100MB/s Read & 60MB/s Write and has 4.5 ratings and costs ₹1,200 rupees
+            PRODUCT_ID: 5713
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Hello Zone Exclusive Matte Finish Soft Back Case Cover for OnePlus Nord CE 2 Lite 5G - Black and has 4.0 ratings and costs ₹699 rupees
+            PRODUCT_ID: 7496
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Wayona Nylon Braided Lightning 2 Meter Long Usb Data Sync And Charging Cable For Iphones, Ipad Air, Ipad Mini, Ipod Nano A... and has 4.2 ratings and costs ₹669 rupees
+            PRODUCT_ID: 7701
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Cello Aspro Mavro Ball Pens | Pack of 25 | BlueBall Pens| Smooth Ball Pens | Long-lasting ball pens | Classy and stylish b... and has 4.0 ratings and costs ₹250 rupees
+            PRODUCT_ID: 3669
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TheGiftKart Crystal Clear Back Cover Case for Motorola Moto G52 / G82 5G | 360 Degree Protection | Shock Proof Design | Tr... and has 4.1 ratings and costs ₹999 rupees
+            PRODUCT_ID: 4823
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: HIKVISION 8 Channel DVR 1080P Lite H.265Pro+ 2MP DVR DS-7108HGHI-K1 with USEWELL HDMI (Without Hard Drive), White and has 4.2 ratings and costs ₹7,000 rupees
+            PRODUCT_ID: 7890
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: KYOSEI Tempered Glass Compatible with OnePlus Nord 2T 5G with Military-Grade Anti-Explosion Edge-to-Edge Coverage Screen P... and has 4.1 ratings and costs ₹1,199 rupees
+            PRODUCT_ID: 4029
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Maizic Walkie Talkie UHF Emergency Alarm, Flash Light, Long Range Communication (Black) and has 4.0 ratings and costs ₹4,999 rupees
+            PRODUCT_ID: 2935
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: GadgetBite Portable Pouch for Electronic Accessories USB Cables, Power Bank, Battery, Portable Hard Drive, SD Memory Card,... and has 4.0 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 8396
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: VEMIGON Alpine Loop Compatible with Apple Watch Straps 49mm 45mm 44mm 42mm and 41mm 40mm 38mm, Nylon Textile Woven Loop wi... and has 3.4 ratings and costs ₹1,197 rupees
+            PRODUCT_ID: 7399
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: boAt Airdopes 141 Bluetooth Truly Wireless in Ear Earbuds with mic, 42H Playtime, Beast Mode(Low Latency Upto 80ms) for Ga... and has 3.9 ratings and costs ₹3,995 rupees
+            PRODUCT_ID: 7
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Qubo Outdoor Security Camera (White) from Hero Group | Made in India | IP65 All-Weather | 2MP 1080p Full HD | CCTV Wi-Fi C... and has 4.0 ratings and costs ₹5,490 rupees
+            PRODUCT_ID: 5504
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: boAt Bassheads 105 Wired in Ear Earphones with Mic (Black) and has 4.0 ratings and costs ₹999 rupees
+            PRODUCT_ID: 210
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Amazon Brand - Solimo Basic Case for Apple iPhone 7 (Silicone_Transparent) and has 4.2 ratings and costs ₹499 rupees
+            PRODUCT_ID: 4096
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: CASON CS6 Real 4K 30fps HD Dual Screen Action Camera for Vlogging with EIS+Gyro,Anti Shake Touch Screen Waterproof Sports ... and has 3.8 ratings and costs ₹13,995 rupees
+            PRODUCT_ID: 6832
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TAGG Sonic Angle 2 14W Portable Bluetooth Speakers Wireless with Dedicated Bass Radiator || Dual Stereo, Waterproof, 10 hr... and has 4.1 ratings and costs ₹6,999 rupees
+            PRODUCT_ID: 4398
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Pikkme Oppo F9 Pro/Realme 2 Pro/Realme U1 Back Cover Soft Matte Liquid Silicone TPU | Camera Protection | Shockproof Slim ... and has 4.4 ratings and costs ₹999 rupees
+            PRODUCT_ID: 6333
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TP-Link TL-SG108S 8-Port Desktop Gigabit Ethernet Switch/Hub, Ethernet Splitter, Plug & Play, no Configuration Required, S... and has 4.5 ratings and costs ₹3,999 rupees
+            PRODUCT_ID: 7862
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Enflamo Soft TPU 3D Relief Flower Printed Phone Case Back Cover for iPhone 11 (White, Mix Lilies) and has 4.0 ratings and costs ₹999 rupees
+            PRODUCT_ID: 6165
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: EVOTECH Digital Dial Waterproof Stylish and Fashionable Wearable Smart Devices/LED Band for Kids/Rakhi/Colorful Cartoon Ch... and has 3.6 ratings and costs ₹699 rupees
+            PRODUCT_ID: 8708
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Boult Audio YCharge Wireless in Ear Bluetooth Earphones with 12H Playtime, Type-C Fast Charging (20Min=100% Playtime), Pr... and has 3.6 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 2158
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: SanDisk Ultra Shift USB Flash Drive USB 3.0, 100MB/s R, 32GB and has 4.2 ratings and costs ₹700 rupees
+            PRODUCT_ID: 4270
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: VEMIGON Hard PC Case Compatible for Apple Watch Series 8 and 7 45mm with Tempered Glass Screen Protector, Full Coverage, T... and has 3.7 ratings and costs ₹1,099 rupees
+            PRODUCT_ID: 2664
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: BOBO BM4 Jaw-Grip Waterproof Bike / Motorcycle / Scooter Mobile Phone Holder Mount, Ideal for Maps and GPS Navigation (Red) and has 4.5 ratings and costs ₹2,199 rupees
+            PRODUCT_ID: 8654
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: ZEISS Lens Wipes - Pre-Moistened Lens Cleaning Wipes | Multi Purpose, Easy To Carry, On-The-Go and Individually Packed Wip... and has 4.2 ratings and costs ₹249 rupees
+            PRODUCT_ID: 1438
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Camlin Kokuyo Trinity Fountain Pen with 3-in-1 Mechanism (Color may vary) and has 4.0 ratings and costs ₹140 rupees
+            PRODUCT_ID: 2419
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Wipro 3 way multiplug with built in Surge Protector and has 4.3 ratings and costs ₹300 rupees
+            PRODUCT_ID: 588
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Robustrion Trifold Flip Stand Hard Back Case Cover for Redmi Pad 10.61 inch Tablet - Black and has 4.3 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 5884
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: rts [2 Pack] Mini USB C Type C Adapter Plug, Type C Female to USB A Male Charger Charging Cable Adapter Converter compatib... and has 4.3 ratings and costs ₹4,999 rupees
+            PRODUCT_ID: 438
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: AB SALES Adjustable Computer Arm Rest Ergonomic Attachable Computer Table Arm Support Stand Desk Rests Chair Extender for ... and has 3.8 ratings and costs ₹899 rupees
+            PRODUCT_ID: 3954
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Razer DeathAdder Essential White Edition - 6400 DPI Ergonomic Wired Gaming Mouse - RZ01-03850200-R3M1 and has 4.4 ratings and costs ₹4,499 rupees
+            PRODUCT_ID: 2587
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: All-new Kindle (2022 release) – The lightest and most compact Kindle, now with a 6” 300 ppi high-resolution display, and 2... and has 4.3 ratings and costs ₹9,999 rupees
+            PRODUCT_ID: 2621
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Panasonic Corded Telephone, White and has 4.2 ratings and costs ₹2,000 rupees
+            PRODUCT_ID: 6681
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Cosmic Byte CB-GK-02 Corona Wired Gaming Keyboard, 7 Color RGB Backlit with Effects, Anti-Ghosting (Black) and has 4.4 ratings and costs ₹1,499 rupees
+            PRODUCT_ID: 3397
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: insta360 ONE RS Twin Edition Waterproof Optical Zoom, 1x 4K 60fps Action Camera & 5.7K 360 Camera with Interchangeable Len... and has 4.3 ratings and costs ₹54,990 rupees
+            PRODUCT_ID: 9086
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: KAPAVER ® Polycarbonate Back Cover Case for Nothing Phone 1 5G (Transparent and Gray) and has 4.4 ratings and costs ₹1,299 rupees
+            PRODUCT_ID: 4427
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: 4 Way Spike and Surge Guard and has 4.1 ratings and costs ₹399 rupees
+            PRODUCT_ID: 4835
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: moxly Universal Silicone Sucker Long Neck Car Mobile Phone Holder Mount Stand Ultimate Reusable Suction Cup with 360 Degre... and has 2.8 ratings and costs ₹1,499 rupees
+            PRODUCT_ID: 8358
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: REALCASE Samsung S21 FE 5G Back Cover | Scratch Resistant Protective Crystal Clear Transparent | Polycarbonate Bumper Back... and has 3.5 ratings and costs ₹499 rupees
+            PRODUCT_ID: 8710
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: A rtistque Liquid TPU Silicone Matte Shockproof Flexible with Camera Protection Soft Back Cover Case for Samsung Galaxy M5... and has 3.7 ratings and costs ₹999 rupees
+            PRODUCT_ID: 6308
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Designerz hub Back Cover for Samsung Galaxy M21/M21 2021 Edition/M30s (Silicone | Black) and has 4.3 ratings and costs ₹1,199 rupees
+            PRODUCT_ID: 7977
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Wayona Nylon Braided (2 Pack) Long Lightning To Usb A Syncing And Fast Charging Data Cable For Iphone, Ipad Tablet (3Ft+6F... and has 4.2 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 4407
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: iQOO Z6 44W by vivo (Lumina Blue, 6GB RAM, 128GB Storage) | 6.44" FHD+ AMOLED Display | 50% Charge in just 27 mins | in-Di... and has 4.1 ratings and costs ₹20,999 rupees
+            PRODUCT_ID: 583
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Nokia 110 Dual sim Keypad Phone with Wireless FM Radio, Free Earphone, Snake Game, Auto Call Recording, 1 Year Replacement... and has 3.8 ratings and costs ₹2,199 rupees
+            PRODUCT_ID: 510
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: QZ USB Hub 3.1 for Desktop PC high Speed, USB 3.1 Gen 1, 4 Ports, 1 Meter Cable, Black and has 4.3 ratings and costs ₹1,260 rupees
+            PRODUCT_ID: 8251
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: ARISTO Multipurpose Plastic Storage Container Box with Wheels 25 LTR (Clear, Transparent), (45.8 x 34 x 26) cm and has 4.1 ratings and costs ₹941 rupees
+            PRODUCT_ID: 1006
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: BKN® Spiral Charger Cable Protector Data Cable Saver Charging Cords Protective for All Universal Earphone & Cable Cover (B... and has 4.0 ratings and costs ₹499 rupees
+            PRODUCT_ID: 2117
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Overtime iPhone Charger Cable 4 Foot (2-Pack), Apple MFi Certified USB to Lightning Cable, 4ft USB Cord for iPhone 14/13/1... and has 4.5 ratings and costs ₹12,220 rupees
+            PRODUCT_ID: 3833
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Syska SSK-EBS-0402 ABS 4 Way Power Strip and has 4.0 ratings and costs ₹470 rupees
+            PRODUCT_ID: 147
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TP-Link AC1200 Mbps Archer A6 Smart WiFi, 5GHz Gigabit Dual Band MU-MIMO Wireless Internet Router, Long Range Coverage by ... and has 4.4 ratings and costs ₹3,999 rupees
+            PRODUCT_ID: 995
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: DEVCOMM Tabletop Universal Mobile Stand for Table with Adjustable Height, 360 Degree Rotation Mobile Holder for Table and ... and has 2.9 ratings and costs ₹499 rupees
+            PRODUCT_ID: 3991
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TP-link 300Mbps Wireless N Speed N300 TL-WR840N Wi-Fi Single Band Router | Access Point Mode | Range Extender mode | WISP ... and has 4.2 ratings and costs ₹1,599 rupees
+            PRODUCT_ID: 2673
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Orico 2.5 inch (6.35cm) SSD Sata Hard Disk External Portable Case Cover USB3.0, 2139U3-CR (Transparent) and has 4.4 ratings and costs ₹1,050 rupees
+            PRODUCT_ID: 6981
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TP-Link TL-WR841N RJ-45 300Mbps Wireless Single_Band N Cable, 4 Fast LAN Ports, Easy Setup, WPS Button, Supports Parent Co... and has 4.2 ratings and costs ₹1,699 rupees
+            PRODUCT_ID: 3168
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: iPhone Wired Earbuds Lightning Apple Headphones Earphone [Apple MFi Certified] Built-in Microphone & Volume Control Headse... and has nan ratings and costs ₹3,999 rupees
+            PRODUCT_ID: 2094
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Samsung Galaxy A14 5G (Dark Red, 8GB, 128GB Storage) | Triple Rear Camera (50 MP Main) | Upto 16 GB RAM with RAM Plus | Tr... and has 3.5 ratings and costs ₹22,999 rupees
+            PRODUCT_ID: 2451
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Spigen Ultra Hybrid Back Cover Case Compatible for Google Pixel 7 Pro (TPU + Polycarbonate | Crystal Clear) and has 4.4 ratings and costs ₹2,099 rupees
+            PRODUCT_ID: 5838
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Sounce 36W 3-Ports Car Charger Adapter, 1 Type C with Power Delivery (PD), 1 USB Port Qualcomm (QC) 3.0 & 1 USB Port Charg... and has 4.1 ratings and costs ₹999 rupees
+            PRODUCT_ID: 3383
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Spigen Leather, Thermoplastic Polyurethane Rugged Armor Pro Back Cover Case Designed for Samsung Galaxy Tab S7 FE 5G | S7 ... and has 4.5 ratings and costs ₹2,499 rupees
+            PRODUCT_ID: 5822
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Western Digital WD 5TB My Passport Portable Hard Disk Drive, USB 3.0 with  Automatic Backup, 256 Bit AES Hardware Encrypti... and has 4.4 ratings and costs ₹20,000 rupees
+            PRODUCT_ID: 5823
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Huion H610Pro V2 Digital Drawing Tablet Graphic Pen Tablet 10" x 6.25", 8192 Pressure Sensitivity with Battery-Free Stylus... and has 4.3 ratings and costs ₹8,879 rupees
+            PRODUCT_ID: 7433
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Bose SoundLink Flex Bluetooth Portable Speaker, Wireless Waterproof Speaker for Outdoor Travel - Stone Blue and has 4.6 ratings and costs ₹15,900 rupees
+            PRODUCT_ID: 4299
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: boAt Bassheads 102 in Ear Wired Earphones with Mic(Jazzy Blue) and has 4.2 ratings and costs ₹1,290 rupees
+            PRODUCT_ID: 392
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: ZEBRONICS Zeb-PIXAPLAY 15 Android Smart LED Projector with WiFi/BT v5.1, FHD 1080p, Apps, Miracast DLNA/Airplay Support, 3... and has 3.9 ratings and costs ₹42,999 rupees
+            PRODUCT_ID: 3436
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Brother DCP-T525W - Wi-Fi Color Ink Tank Multifunction (Print, Scan & Copy) All in One Printer for Home & Office and has 4.2 ratings and costs ₹17,790 rupees
+            PRODUCT_ID: 5034
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Dyazo Audio Headphone Earphone & Mic 3.5mm Jack Splitter 2 Male to 1 Female Gold Plated Car Aux Y Adapter Cable for Phones... and has 3.9 ratings and costs ₹599 rupees
+            PRODUCT_ID: 5090
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Aroma® NB119 Star Bluetooth Wireless In Ear Neckband with Long Lasting Playtime 50 Hrs, Smart Voice Assistant, Bluetooth V... and has 3.6 ratings and costs ₹2,999 rupees
+            PRODUCT_ID: 6336
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Techmount Silicone Shock Proof New Cartoon 3D Designer Protection Cover Case Compatible for Apple Airpods1 & 2 Only (NOT f... and has 4.1 ratings and costs ₹999 rupees
+            PRODUCT_ID: 7836
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Spy Mission HD Small Security Camera Series-1 Hidden Recording Device for Indoor and Outdoor, Portable Mini Pen Camera Vid... and has 3.1 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 6554
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: AmazonBasics Tie-Out Cable/Leash for Dogs up to 57 Kg, 30 Feet and has 4.3 ratings and costs ₹795 rupees
+            PRODUCT_ID: 5731
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Amozo Designed for iPhone 14 Cover | Ultra Hybrid Drop and Camera Protection Back Cover Case for iPhone 14 (TPU + Polycarb... and has 4.3 ratings and costs ₹1,499 rupees
+            PRODUCT_ID: 729
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Apple iPhone 14 (128 GB) - (Product) RED and has 4.5 ratings and costs ₹79,900 rupees
+            PRODUCT_ID: 8706
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TOUGH LEE Case Cover for Samsung Galaxy Buds 2 Pro (2022), Buds2 Pro | Galaxy Buds 2 (2021) | Galaxy Buds Pro (2021) | Gal... and has 3.3 ratings and costs ₹999 rupees
+            PRODUCT_ID: 8821
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TRONA Foldable Bed Study Table Portable Multifunction Laptop-Table Lapdesk for Children Bed Foldabe Table Work Office Home... and has 3.9 ratings and costs ₹699 rupees
+            PRODUCT_ID: 5519
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: ProElite Smart Case for iPad Pro 11 inch 2022/2021 4th/3rd Gen [Auto Sleep/Wake Cover] [Pencil Holder] [Soft Flexible Cas... and has 4.4 ratings and costs ₹1,999 rupees
+            PRODUCT_ID: 2909
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Lavie Sport Chairman Laptop Bag | Premium Leatherette Business Backpack for Men & Women | Durable Office Bag for Notebook/... and has 4.0 ratings and costs ₹4,499 rupees
+            PRODUCT_ID: 3646
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Amazon Brand - Solimo Back Cover for Samsung Galaxy M31 Prime / M31 / F41 (Silicone | Clear) and has 3.9 ratings and costs ₹399 rupees
+            PRODUCT_ID: 4516
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Mobistyle Compatible for iPhone 11 Case 6.1 inch Hybrid PC+TPU Soft Grip Clear Back Panel Enhanced Metal Camera Guard Back... and has 3.8 ratings and costs ₹999 rupees
+            PRODUCT_ID: 5283
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: DIGITEK® (DLS-9FT) Lightweight & Portable Aluminum Alloy Light Stand for Ring Light, Reflector, Flash Units, Diffuser, Por... and has 4.3 ratings and costs ₹1,295 rupees
+            PRODUCT_ID: 1290
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Nokia 150 (2020) (Red) and has 3.9 ratings and costs nan rupees
+            PRODUCT_ID: 5015
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Camlin Elegante Fountain Pen - Black/Blue/Red and has 4.1 ratings and costs ₹225 rupees
+            PRODUCT_ID: 2066
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: iBOND 65 Watt Warp Charger for Oneplus 65W Wrap Charging with USB to C Cable Charger Compatible for OnePlus 10/10 Pro/9/9 ... and has 4.6 ratings and costs ₹1,299 rupees
+            PRODUCT_ID: 5361
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Samsung T7 500GB Up to 1,050MB/s USB 3.2 Gen 2 (10Gbps, Type-C) External Solid State Drive (Portable SSD) Grey(MU-PC500T) and has 4.6 ratings and costs ₹12,999 rupees
+            PRODUCT_ID: 4713
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Amazon Basics Micro Usb Fast Charging Cable For Android Phones With Gold Plated Connectors (3 Feet, Black) and has 4.2 ratings and costs ₹500 rupees
+            PRODUCT_ID: 1126
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: TheGiftKart Ultra-Hybrid Crystal Clear Back Cover Case for iPhone 12/12 PRO | Anti-Slip Grip Built-in | Bold Camera Protec... and has 4.8 ratings and costs ₹999 rupees
+            PRODUCT_ID: 4568
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: ZEBRONICS ZEB-K04 Mini Multimedia USB Wired Keyboard with 96 UV Coated Keys, Slim & Compact, for PC/Mac and has 3.9 ratings and costs ₹399 rupees
+            PRODUCT_ID: 2622
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Lenovo Casual Laptop Backpack B210 39.62 cm (15.6) -inch Water Repellent Grey and has 4.2 ratings and costs ₹1,615 rupees
+            PRODUCT_ID: 4201
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Nokia 3310 Dual SIM Keypad Phone with MP3 Player, Wireless FM Radio and Rear Camera | Grey and has 4.1 ratings and costs ₹4,399 rupees
+            PRODUCT_ID: 4582
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: 7SEVEN® Infrared Remote Control for Realme Smart 4K Android LED OLED QLED TV replacement for original realme remote with N... and has 3.5 ratings and costs ₹999 rupees
+            PRODUCT_ID: 6623
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: LINLO Tempered Glass Screen Protector Compatible for OnePlus Nord CE 2 Lite 5G with Edge to Edge Coverage and Easy Install... and has 3.9 ratings and costs ₹699 rupees
+            PRODUCT_ID: 7183
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: EvoFox Shadow Optical USB Wired Gaming Mouse with Upto 3600 DPI Gaming Sensor | 6 Buttons Design | Press Life Upto 7 Milli... and has 4.5 ratings and costs ₹799 rupees
+            PRODUCT_ID: 3915
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: realme narzo 50A Prime (Flash Black, 4GB RAM+128GB Storage) FHD+ Display | 50MP AI Triple Camera (No Charger Variant) and has 4.0 ratings and costs ₹14,499 rupees
+            PRODUCT_ID: 1105
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Samsung 146 cm (58 inches) Crystal 4K Pro Series Ultra HD Smart LED TV UA58AUE70AKLXL (Black) and has 4.3 ratings and costs ₹80,900 rupees
+            PRODUCT_ID: 5059
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: REDTECH USB C to Lightning Adapter Apple Lightning to Type C Adapter for iPhone iPad Support Charger+Data Sync Adapter Com... and has 3.4 ratings and costs ₹999 rupees
+            PRODUCT_ID: 7179
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: HP Deskjet Ink Advantage Ultra 4826 Print, Copy, Scan, Self Reset Dual Band WiFi, 2 Sets of Inbox Cartridges, Smart App Se... and has 4.0 ratings and costs ₹11,250 rupees
+            PRODUCT_ID: 3158
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: WOW IMAGINE Samsung Galaxy A14 5G Slim Ultra Soft Rubberised Back Cover | Inner Velvet Fabric Lining | Matte Silicone Flex... and has 4.7 ratings and costs ₹999 rupees
+            PRODUCT_ID: 8204
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Ceptics Europe Travel Adapter, India to Europe (Schuko) plug - Type E/F European plug adapter, Universal adapter for Europ... and has 4.3 ratings and costs ₹1,499 rupees
+            PRODUCT_ID: 2676
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: OnePlus 163.8 cm (65 inches) U Series 4K LED Smart Android TV 65U1S (Black) and has 4.1 ratings and costs ₹69,999 rupees
+            PRODUCT_ID: 6008
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: VEMIGON Stainless Steel Magnetic Strap Compatible with Apple Watch Series 8 7 6 5 4 3 2 1 SE, Women and Men [Watch Not Inc... and has 3.4 ratings and costs ₹1,069 rupees
+            PRODUCT_ID: 6568
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: WOW IMAGINE Shock Proof Clear Back Case Mobile Cover for Samsung Galaxy A21s | (Hard | Hybrid PC + TPU | Full Armour Devic... and has 4.1 ratings and costs ₹999 rupees
+            PRODUCT_ID: 8379
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: boAt Rockerz 245v2 Bluetooth Wireless in Ear Earphones with Upto 8 Hours Playback, 12mm Drivers, IPX5, Magnetic Eartips, I... and has 3.9 ratings and costs ₹2,490 rupees
+            PRODUCT_ID: 162
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Redmi Note 9 Pro (Interstellar Black, 4GB RAM, 64GB Storage)- Latest 8nm Snapdragon 720G & Alexa Hands-Free Capable and has 4.3 ratings and costs nan rupees
+            PRODUCT_ID: 5449
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: REMOTEX Air Conditioner Remote Compatible for Voltas Smart Split Ac Remote Control with WiFi Function (Please Match The Im... and has 3.7 ratings and costs ₹999 rupees
+            PRODUCT_ID: 7042
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Winble Back Cover for iPhone 14 Pro Case | Metal Camera Guard Acrylic Clear Protective Back | Back Cover Case for iPhone 1... and has 4.2 ratings and costs ₹999 rupees
+            PRODUCT_ID: 3133
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Amazon Brand - Solimo Height & Angle Adjustable Tabletop Desk Cellphone Holder for All Mobiles & Tablets, Universal Foldab... and has 3.6 ratings and costs ₹599 rupees
+            PRODUCT_ID: 2228
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Safari Crew Overnighter Backpack, 40 Ltr Water Resistant Travel Laptop Bag, Black Polyester Backpack for Men and Women, Sp... and has 4.3 ratings and costs ₹5,099 rupees
+            PRODUCT_ID: 2598
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Apple 20W USB-C Power Adapter (for iPhone, iPad & AirPods) and has 4.6 ratings and costs ₹1,900 rupees
+            PRODUCT_ID: 8
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Ceptics Europe Travel Adapter, 2 in 1 India to Europe, Germany, France Schuko Adapter - Type E/F European Plug Adapter for... and has 4.7 ratings and costs ₹1,499 rupees
+            PRODUCT_ID: 8938
+            INSTRUCTION: Given the product description, find the product_id
+            DESCRIPTION: Carvaan Saregama Mini 2.0 Bhakti- Music Player with Bluetooth/FM/AM/AUX (Orange) and has 3.8 ratings and costs ₹2,690 rupees
+            PRODUCT_ID: 3087
+            
