@@ -1,21 +1,30 @@
 package com.ncs.nyayvedika.UI.Chat.Adapters
 
 import android.content.Context
+import android.content.Intent
 import android.net.Uri
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.core.content.ContextCompat.startActivity
+import androidx.core.view.get
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.github.doyaaaaaken.kotlincsv.dsl.csvReader
 import com.ncs.nyayvedika.Domain.Models.PdfMessage
 import com.ncs.nyayvedika.Domain.Models.ProductSummary
 import com.ncs.nyayvedika.R
+import com.ncs.nyayvedika.databinding.BotCommentItemBinding
 import com.ncs.nyayvedika.databinding.BotMessageItemBinding
 import com.ncs.nyayvedika.databinding.BotMessagePdfItemBinding
 import com.ncs.nyayvedika.databinding.BotMessageTypingItemBinding
 import com.ncs.nyayvedika.databinding.UserMessageItemBinding
 import com.ncs.o2.Domain.Models.Message
+import com.ncs.o2.Domain.Utility.ExtensionsUtil.gone
+import com.ncs.o2.Domain.Utility.ExtensionsUtil.isNull
 import com.ncs.o2.Domain.Utility.ExtensionsUtil.setOnClickThrottleBounceListener
+import com.ncs.o2.Domain.Utility.ExtensionsUtil.visible
 import io.noties.markwon.Markwon
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -62,6 +71,7 @@ class ChatAdapter(var msgList: MutableList<Message>, val context : Context, val 
         const val MESSAGE_TYPE_USER = 1
         const val MESSAGE_TYPE_BOT_PDF = 2
         const val MESSAGE_TYPE_BOT_TYPING = 3
+        const val MESSAGE_TYPE_BOT_COMMENT = 4
     }
 
 
@@ -69,79 +79,63 @@ class ChatAdapter(var msgList: MutableList<Message>, val context : Context, val 
         RecyclerView.ViewHolder(binding.root){
 
         fun bind(position: Int){
+
             val msg = msgList.get(position).message
             //binding.tvMessage.setText(msg)
 
-           // val productID= extractNumber(msg)
-            val productID= 8291
+            //val productID= extractNumber(msg)?.toInt()
+            val productID= 782
             Toast.makeText(context, productID.toString(), Toast.LENGTH_SHORT).show()
 
             if (productID!=null){
+                val ps = getProductFromCsv(productID)
+                if (ps==null){
+                    binding.productSummary.gone()
+                    markwon.setMarkdown(binding.tvMessage, "\"Sorry, no matching products :(\"")
+                }
+                else {
 
-                CoroutineScope(Dispatchers.IO).launch {
-                    try {
-                        val inputStream = context.resources.openRawResource(R.raw.data)
-                        val reader = BufferedReader(InputStreamReader(inputStream))
+                    //Title
+                    binding.productTitle.text = ps.productTitle
 
-                        var pd: ProductSummary? = null
+                    //Product image
+                    Glide.with(context)
+                        .load(ps.imageLink)
+                        .placeholder(R.drawable.amzn)
+                        .into(binding.productImage)
 
-                        reader.useLines { lines ->
-                            for (line in lines) {
-                                val parts = line.split(",")
-                                if (parts.size == 10) {
+                    //New price
+                    ps.productPriceNowString.also { binding.productPrizeNow.text = it }
+                    ps.productPriceEarlierString.also { binding.productPrizeEarlier.text = it }
 
-                                    val id = parts[9].toInt()
+                    //Percent discount
+                    val priceEarlier = ps.productPriceEarlierInt
+                    val priceNow = ps.productPriceNowInt
+                    val diff = priceEarlier - priceNow
+                    val div: Float = diff/priceEarlier.toFloat()
+                    val discount = div * 100
 
-                                    if (id == productID.toInt()) {
+                    binding.productPrizeOffPercent.text = "${discount.toInt()}%"
 
-                                        val name = parts[0]
-                                        val image = parts[3]
-                                        val link = parts[4]
-                                        val ratings = parts[5].toInt()
-                                        val noOfRatings = parts[6].toInt()
-                                        val discountPrice = parts[7]
-                                        val actualPrice = parts[8]
-                                        pd = ProductSummary(productTitle= name, productPriceNow = discountPrice,
-                                            productPriceEarlier= actualPrice, productRatings = noOfRatings,
-                                            productRatingCount = ratings, productLink = link, imageLink = image )
-                                        break
-                                    }
-                                }
-                            }
-                        }
+                    //Rating
+                    binding.ratingBar1.rating = ps.productRatings
+                    binding.productRatingNum.text = ps.productRatingCount.toString()
 
+                    markwon.setMarkdown(binding.tvMessage, ps.productTitle)
+                    binding.productSummary.visible()
 
-                        withContext(Dispatchers.Main) {
-                            if (pd != null) {
-
-                                markwon.setMarkdown(binding.tvMessage,
-                                    "${productID}\n${pd!!.productTitle}\n"
-                                )
-
-
-
-                               // Toast.makeText(context, pd!!.productPriceNow, Toast.LENGTH_SHORT).show()
-                                //binding.productTitle.text = pd!!.productTitle
-
-//                                Glide.with(context.applicationContext)
-//                                    .load(pd!!.imageLink)
-//                                    .into(binding.productImage)
-                            } else {
-                                Toast.makeText(context, "Product not found", Toast.LENGTH_SHORT).show()
-                            }
-
-
-                        }
-                    } catch (e: Exception) {
-                        e.printStackTrace()
+                    binding.productSummary.setOnClickThrottleBounceListener{
+                        val intent = Intent(Intent.ACTION_VIEW)
+                        intent.data = Uri.parse(ps.productLink)
+                        context.startActivity(intent)
                     }
+
                 }
 
-
             }else {
+                binding.productSummary.gone()
                 markwon.setMarkdown(binding.tvMessage, "\"Sorry, no matching products :(\"")
             }
-
 
 
 
@@ -160,6 +154,8 @@ class ChatAdapter(var msgList: MutableList<Message>, val context : Context, val 
 
 
 
+
+
     private inner class BotMessage_PDF_ViewHolder( val binding : BotMessagePdfItemBinding) :
         RecyclerView.ViewHolder(binding.root){
 
@@ -175,6 +171,25 @@ class ChatAdapter(var msgList: MutableList<Message>, val context : Context, val 
             binding.btnSendPdf.setOnClickThrottleBounceListener(600){
                 openPDFcallback.sendPdf(msg.uri)
             }
+        }
+
+    }
+
+
+    private inner class BotMessage_Comment_ViewHolder( val binding : BotCommentItemBinding) :
+        RecyclerView.ViewHolder(binding.root){
+
+        fun bind(position: Int){
+
+            val msg : Message = msgList[position]
+            binding.tvMessage.text = msg.message
+
+            if (msg.message.equals("Hey there \uD83D\uDC4B\uD83C\uDFFB")){
+                binding.profileHeader.visible()
+            }else {
+                binding.profileHeader.gone()
+            }
+
         }
 
     }
@@ -227,6 +242,10 @@ class ChatAdapter(var msgList: MutableList<Message>, val context : Context, val 
                 BotMessage_Typing_ViewHolder(BotMessageTypingItemBinding.inflate(LayoutInflater.from(context),parent,false))
             }
 
+            MESSAGE_TYPE_BOT_COMMENT -> {
+                BotMessage_Comment_ViewHolder(BotCommentItemBinding.inflate(LayoutInflater.from(context),parent,false))
+            }
+
             else -> {
                 throw IllegalArgumentException("Invalid view type")
             }
@@ -249,6 +268,9 @@ class ChatAdapter(var msgList: MutableList<Message>, val context : Context, val 
         }
         else if (msgList[position].msgType == MESSAGE_TYPE_BOT_TYPING) {
             (holder as BotMessage_Typing_ViewHolder).bind(position)
+        }
+        else if (msgList[position].msgType == MESSAGE_TYPE_BOT_COMMENT) {
+            (holder as BotMessage_Comment_ViewHolder).bind(position)
         }
     }
 
@@ -291,8 +313,37 @@ class ChatAdapter(var msgList: MutableList<Message>, val context : Context, val 
 //    }
 
 
-    private fun searchProductById(context: Context, productId: Int) {
 
+    fun getProductFromCsv(productId : Int): ProductSummary? {
+        val inputStream = context.resources.openRawResource(R.raw.data)
+        var productSummary : ProductSummary? = null
+        csvReader().open(inputStream) {
+
+            val productSequence = readAllWithHeaderAsSequence()
+            for (field in productSequence) {
+                val currentProductId = field["product_id"]?.toInt()
+                if (currentProductId == productId) {
+
+                    productSummary =  ProductSummary(
+                        productID = currentProductId,
+                        productTitle = field["name"].toString(),
+                        productPriceNowInt = field["discount_price"].toString().replace(Regex("[₹,]"),"").toInt(),
+                        productPriceNowString = field["discount_price"].toString(),
+
+                        productPriceEarlierInt = field["actual_price"].toString().replace(Regex("[₹,]"),"").toInt(),
+                        productPriceEarlierString = field["actual_price"].toString(),
+
+                        productRatings = field["ratings"]!!.toFloat(),
+                        productRatingCount = field["no_of_ratings"].toString().replace(",","").toInt(),
+                        productLink = field["link"].toString(),
+                        imageLink = field["image"].toString()
+                    )
+
+                }
+            }
+        }
+
+        return productSummary
     }
 
 

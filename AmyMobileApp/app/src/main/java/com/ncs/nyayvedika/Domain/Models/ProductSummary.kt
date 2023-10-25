@@ -18,10 +18,16 @@ Tasks FUTURE ADDITION :
 
 
 */data class ProductSummary(
+    val productID: Int,
     val productTitle: String,
-    val productPriceNow: String,
-    val productPriceEarlier: String,
-    val productRatings: Int,
+
+    val productPriceNowInt: Int,
+    val productPriceEarlierInt: Int,
+
+    val productPriceNowString: String,
+    val productPriceEarlierString: String,
+
+    val productRatings: Float,
     val productRatingCount: Int,
     val productLink: String,
     val imageLink: String

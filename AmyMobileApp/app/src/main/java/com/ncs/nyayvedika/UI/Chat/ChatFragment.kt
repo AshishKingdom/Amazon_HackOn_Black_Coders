@@ -34,12 +34,10 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.gson.Gson
-import com.google.gson.GsonBuilder
-import com.google.gson.JsonObject
-import com.ncs.nyayvedika.Constants.ApiEndpoints
+import com.github.doyaaaaaken.kotlincsv.dsl.csvReader
 import com.ncs.nyayvedika.Constants.TestingConfig
 import com.ncs.nyayvedika.Domain.Models.PdfMessage
+import com.ncs.nyayvedika.Domain.Models.ProductSummary
 import com.ncs.nyayvedika.Domain.Models.Question
 import com.ncs.nyayvedika.R
 import com.ncs.nyayvedika.UI.Chat.Adapters.ChatAdapter
@@ -71,7 +69,7 @@ import io.noties.markwon.image.glide.GlideImagesPlugin
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.json.JSONObject
+import timber.log.Timber
 
 
 @AndroidEntryPoint
@@ -198,7 +196,8 @@ class ChatFragment : Fragment(), ChatAdapter.OnClickCallback, OptionsBottomSheet
 
 
         val msgListBangla: ArrayList<Message> = arrayListOf(
-           // Message("What are you looking for?", 0),
+            Message("Hey there 👋🏻", 4),
+            Message("I am Amy, your smart shopping partner.\nWhat are you looking for today? ✨🛒", 4),
         )
 
 
@@ -307,7 +306,7 @@ class ChatFragment : Fragment(), ChatAdapter.OnClickCallback, OptionsBottomSheet
             val msg = binding.inputBox.editboxMessage.text.toString()
             addMessage(Message(msg, MessageTypes.MESSAGE_TYPE_USER))
             CoroutineScope(Dispatchers.Main).launch {
-                val question = Question(query = "mero ko ek 5g phone chaiye jisme AMOLED display ho",
+                val question = Question(query = msg,
                     device = "Android/iOS", language = "English")
                 viewModel.getAnswer(question)
             }
@@ -524,13 +523,10 @@ class ChatFragment : Fragment(), ChatAdapter.OnClickCallback, OptionsBottomSheet
     private fun startOpeningAnim() {
 
         binding.vedikaTitle.animFadein(requireContext(), 1500)
-        binding.lottieProgressInclude.progressbarBlock.animFadein(requireContext(), 3000)
 
         Handler(Looper.getMainLooper()).postDelayed({
             binding.vedikaTitle.animFadeOut(requireContext(), 200)
             binding.vedikaTitle.gone()
-            binding.lottieProgressInclude.progressbarBlock.animFadeOut(requireContext(), 250)
-            binding.lottieProgressInclude.progressLayout.gone()
 
             binding.actionbar.titleTv.animFadein(requireContext(), 1500)
             binding.actionbar.titleTv.visible()
@@ -546,16 +542,13 @@ class ChatFragment : Fragment(), ChatAdapter.OnClickCallback, OptionsBottomSheet
         Handler(Looper.getMainLooper()).postDelayed({
             val marginStart = resources.getDimension(R.dimen.margin_start_80)
             val params =
-                binding.lottieProgressInclude.progressLayout.layoutParams as ViewGroup.MarginLayoutParams
-            params.marginStart = marginStart.toInt()
-            binding.lottieProgressInclude.progressLayout.layoutParams = params
 
-            Handler(Looper.getMainLooper()).postDelayed({
-                binding.lottieProgressInclude.progressLayout.visible()
-                binding.lottieProgressInclude.progressbarBlock.bounce(requireContext(), 200)
-                binding.lottieProgressInclude.progressLayout.scaleX = 1.8f
-                binding.lottieProgressInclude.progressLayout.scaleY = 1.8f
-            }, 500)
+//            Handler(Looper.getMainLooper()).postDelayed({
+//                binding.lottieProgressInclude.progressLayout.visible()
+//                binding.lottieProgressInclude.progressbarBlock.bounce(requireContext(), 200)
+//                binding.lottieProgressInclude.progressLayout.scaleX = 1.8f
+//                binding.lottieProgressInclude.progressLayout.scaleY = 1.8f
+//            }, 500)
 
             Handler(Looper.getMainLooper()).postDelayed({
                 binding.comment.animFadein(requireContext(), 2000)
@@ -652,7 +645,14 @@ class ChatFragment : Fragment(), ChatAdapter.OnClickCallback, OptionsBottomSheet
     ////////////////////// CALLBACKS ////////////////////////
 
 
-}
+
+
+
+    }
+
+
+
+
 
 
 

@@ -38,26 +38,14 @@
             style="@style/headline_bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="104dp"
             android:gravity="center"
-            android:text="Vedika"
+            android:text="@string/app_name"
             android:textColor="@color/colorPrimary"
             android:textSize="35dp"
             android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <include
-            android:id="@+id/lottie_progress_include"
-            layout="@layout/circular_progress"
-            android:layout_width="48dp"
-            android:layout_height="44dp"
-            android:layout_gravity="center"
-            android:layout_marginEnd="80dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/vedika_title"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
@@ -74,7 +62,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/lottie_progress_include"
             app:layout_constraintVertical_bias="0.154" />
 
 
