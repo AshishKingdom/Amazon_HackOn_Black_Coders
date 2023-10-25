@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="secondaryBlue">#0061ff</color>
+
+    <color name="darkTheme_bg">#242222</color>
+
+
+    <color name="better_white">#E3E1E1</color>
+    <color name="card_bg">#3F4041</color>
+    <color name="pureblack">#000000</color>
+    <color name="dim_purple">#C3BCED</color>
+    <color name="black_overlay">#66000000</color>
+
+
+
+
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff563f</color>
+    <color name="orange">#ff563f</color>
+    <color name="account">#999999</color>
+
+
+    <color name="colorPrimary">#1E71FF</color>
+    <color name="bot_bubble_bg">#FFF8E1</color>
+    <color name="black200">#4A4A4A</color>
+    <color name="chat_progress_bg">#8A1E71FF</color>
+
+</resources>
